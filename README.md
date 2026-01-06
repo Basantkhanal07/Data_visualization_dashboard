@@ -35,47 +35,48 @@ Data_visualization_dashboard/
 ├── .gitignore                   # Git ignore rules
 ├── README.md                   # Project 
 
-## 🔍 Analysis Components
+🔍 Analysis Components
+1. Monthly Sales Trend Analysis
+Visualization: Line Chart
+Purpose: Identifies seasonal patterns, peak sales periods, and overall growth trajectory
+Key Insight: October 2003 showed the highest sales volume, suggesting strong seasonal demand during Q4.
+2. Product Line Performance
+Visualization: Bar Chart
+Purpose: Compares total revenue contribution across different product categories
+Key Insight: Motorcycles emerged as the top-performing product line, accounting for the largest share of total sales.
+3. Regional Sales Distribution
+Visualization: Heatmap
+Purpose: Cross-analyzes sales performance by territory and product line
+Key Insight: EMEA territory demonstrated strong performance in Motorcycles, while North America led in Classic Cars sales.
+4. Advanced Statistical Visualizations
 
-### 1. Monthly Sales Trend Analysis
-**Visualization:** Line Chart  
-**Purpose:** Identifies seasonal patterns, peak sales periods, and overall growth trajectory
+Countplot - Order frequency distribution across product lines
+Boxplot - Sales variability and outlier detection
+Violin Plot - Sales density distribution by territory and product
+Swarmplot - Granular view of individual sales transactions
+Pairplot - Multivariate relationship analysis
+Correlation Heatmap - Numerical feature correlation matrix
 
-**Key Insight:** October 2003 showed the highest sales volume, suggesting strong seasonal demand during Q4.
+5. Business Intelligence Insights
 
-### 2. Product Line Performance
-**Visualization:** Bar Chart  
-**Purpose:** Compares total revenue contribution across different product categories
+Top Performing Product: Motorcycles
+Highest Revenue Territory: EMEA
+Peak Sales Period: October 2003
+Sales Distribution: Statistical analysis of order values
+Customer Segmentation: Top customers by revenue contribution
 
-**Key Insight:** Motorcycles emerged as the top-performing product line, accounting for the largest share of total sales.
+🛠️ Technologies Used
 
-### 3. Regional Sales Distribution
-**Visualization:** Heatmap  
-**Purpose:** Cross-analyzes sales performance by territory and product line
+Python 3.8+ - Core programming language
+Pandas - Data manipulation and analysis
+NumPy - Numerical computing
+Matplotlib - Static visualizations
+Seaborn - Statistical data visualization
+Jupyter Notebook - Interactive development environment
 
-**Key Insight:** EMEA territory demonstrated strong performance in Motorcycles, while North America led in Classic Cars sales.
+🚀 Getting Started
 
-### 4. Advanced Statistical Visualizations
-
-- **Countplot** - Order frequency distribution across product lines
-- **Boxplot** - Sales variability and outlier detection
-- **Violin Plot** - Sales density distribution by territory and product
-- **Swarmplot** - Granular view of individual sales transactions
-- **Pairplot** - Multivariate relationship analysis
-- **Correlation Heatmap** - Numerical feature correlation matrix
-
-## 🛠️ Technologies Used
-
-- **Python 3.8+** - Core programming language
-- **Pandas** - Data manipulation and analysis
-- **NumPy** - Numerical computing
-- **Matplotlib** - Static visualizations
-- **Seaborn** - Statistical data visualization
-- **Jupyter Notebook** - Interactive development environment
-
-## 🚀 Getting Started
-
-### Prerequisites
+Prerequisites
 
 ```bash
 Python 3.8 or higher
@@ -87,7 +88,6 @@ pip package manager
 1. Clone the repository
 ```bash
 git clone https://github.com/Basantkhanal07/Data_visualization_dashboard
-cd sales-analysis-dashboard
 ```
 
 2. Create a virtual environment (recommended)
